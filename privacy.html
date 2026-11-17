@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IV Lens Privacy Policy</title>
+<style>
+  :root { --ink: #1d1f24; --muted: #5d6170; --ground: #f6f7f9; --surface: #ffffff; --line: #e3e5ea; --accent: #2563eb; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --ink: #e8e9ec; --muted: #a2a6b2; --ground: #121316; --surface: #1b1d21; --line: #2c2f35; --accent: #8ab4ff; }
+  }
+  :root[data-theme="dark"] { --ink: #e8e9ec; --muted: #a2a6b2; --ground: #121316; --surface: #1b1d21; --line: #2c2f35; --accent: #8ab4ff; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 44rem; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 6px; }
+  .date { color: var(--muted); margin: 0 0 28px; }
+  .summary { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; margin-bottom: 32px; }
+  .summary p { margin: 0; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+  ul { padding-left: 1.2em; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>IV Lens Privacy Policy</h1>
+  <p class="date">Effective 17 November 2026</p>
+
+  <div class="summary">
+    <p><strong>IV Lens doesn't collect any personal data.</strong> There are no accounts, ads, analytics or tracking.
+    Your Pokémon collection and settings stay on your iPhone, and nothing about you is sent to us or anyone else.</p>
+  </div>
+
+  <h2>What the app reads on your iPhone</h2>
+  <ul>
+    <li><strong>Your screen, while you record it.</strong> When you start a screen broadcast to IV Lens, the app reads
+      Pokémon GO's appraisal screen to work out each Pokémon's stats. Text recognition uses Apple's on-device Vision
+      framework. Frames are analysed in memory and thrown away; they are never uploaded.</li>
+    <li><strong>Saved frames, only if you turn it on.</strong> With "Save missed frames" on, frames the scanner couldn't
+      read are kept in the app's storage on your iPhone so you can look at them. They stay there until you delete them,
+      and leave your iPhone only if you share them yourself.</li>
+    <li><strong>Screenshots and recordings you pick.</strong> Images and videos you choose with the photo picker or the
+      Files app are read on your iPhone. The app sees only the items you pick, not the rest of your library.</li>
+  </ul>
+
+  <h2>What it stores</h2>
+  <ul>
+    <li>Your collection, notes, settings and a daily backup, all on your iPhone. The backups are in the Files app
+      under On My iPhone › IV Lens › Backups.</li>
+    <li>If iCloud Backup is on, your iPhone's backup includes this data. That's Apple's service, covered by
+      <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</li>
+    <li>Deleting the app deletes all of it, apart from any copies you exported yourself.</li>
+  </ul>
+
+  <h2>What it downloads</h2>
+  <p>About once a week, and when you tap Update in Settings, the app downloads game data and battle rankings from
+  <a href="https://geofrust.github.io/ivlens-data/">geofrust.github.io/ivlens-data</a>, which is hosted on GitHub
+  Pages. These requests contain no personal information. Like any website, GitHub receives your IP address and basic
+  request details; see the
+  <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General
+  Privacy Statement</a>. The app makes no other internet connections.</p>
+
+  <h2>What you share</h2>
+  <p>Data leaves the app only when you choose to send it: for example sharing a CSV export, a backup or a Pokémon
+  summary, or copying a search string. It goes wherever you send it.</p>
+
+  <h2>Notifications</h2>
+  <p>Scan banners are local notifications created on your iPhone. They don't use any push service.</p>
+
+  <h2>Children</h2>
+  <p>IV Lens collects no personal data from anyone, including children.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: open an issue at
+  <a href="https://github.com/geofrust/ivlens-data/issues">github.com/geofrust/ivlens-data/issues</a>.</p>
+
+  <footer>IV Lens is not affiliated with, endorsed or sponsored by Niantic, Nintendo, The Pokémon Company or Game
+  Freak. Pokémon and Pokémon GO are trademarks of their respective owners.</footer>
+</main>
+</body>
+</html>
