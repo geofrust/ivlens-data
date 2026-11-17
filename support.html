@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IV Lens Support</title>
+<style>
+  :root { --ink: #1d1f24; --muted: #5d6170; --ground: #f6f7f9; --surface: #ffffff; --line: #e3e5ea; --accent: #2563eb; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --ink: #e8e9ec; --muted: #a2a6b2; --ground: #121316; --surface: #1b1d21; --line: #2c2f35; --accent: #8ab4ff; }
+  }
+  :root[data-theme="dark"] { --ink: #e8e9ec; --muted: #a2a6b2; --ground: #121316; --surface: #1b1d21; --line: #2c2f35; --accent: #8ab4ff; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 44rem; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 28px; }
+  .contact { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; margin-bottom: 32px; }
+  .contact p { margin: 0; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+  h3 { font-size: 1rem; margin: 22px 0 4px; }
+  p { margin: 0 0 10px; }
+  ol { padding-left: 1.3em; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>IV Lens Support</h1>
+  <p class="lead">Help with scanning, your collection and battle rankings.</p>
+
+  <div class="contact">
+    <p><strong>Need help or found a bug?</strong> Open an issue at
+    <a href="https://github.com/geofrust/ivlens-data/issues">github.com/geofrust/ivlens-data/issues</a>.
+    A screenshot of what you see helps a lot.</p>
+  </div>
+
+  <h2>Getting started</h2>
+  <ol>
+    <li>Open IV Lens and tap <strong>Start scanning</strong>, choose <strong>IV Lens</strong>, then <strong>Start Broadcast</strong>.</li>
+    <li>Switch to the game, open a Pokémon and appraise it until the three stat bars show.</li>
+    <li>Hold the appraisal on screen for about a second. A banner shows the result and the Pokémon is saved.</li>
+  </ol>
+  <p>Tap <strong>Overlay</strong> on the Dashboard to float the result over the game while you play.</p>
+
+  <h2>Common questions</h2>
+  <h3>A Pokémon wasn't saved.</h3>
+  <p>Keep the appraisal screen still until all three bars are filled in. Very fast tapping, an open menu or a
+  notification covering the bars can stop it from being read. Turn on Settings › Save missed frames to see what the
+  scanner saw.</p>
+
+  <h3>A mark (shiny, shadow, lucky…) is wrong.</h3>
+  <p>Long-press the banner and choose the fix, or open the Pokémon and change it. Marks you set yourself are never
+  changed by later scans.</p>
+
+  <h3>Scanning stopped by itself.</h3>
+  <p>iOS ends a screen broadcast if its memory use gets too high, or when the screen locks. Start it again from the
+  Dashboard. Settings › Diagnostics shows what happened.</p>
+
+  <h3>Are the rankings up to date?</h3>
+  <p>Game data and league rankings update once a week on Wi-Fi. To update now, go to Settings › Game data ›
+  Update game data &amp; meta rankings.</p>
+
+  <h3>How do I move my collection to a new iPhone?</h3>
+  <p>Your iPhone's iCloud Backup includes it. You can also export a backup from Settings › Backup &amp; import and
+  import it on the new phone.</p>
+
+  <h2>Privacy</h2>
+  <p>IV Lens collects no personal data. See the <a href="privacy.html">privacy policy</a>.</p>
+
+  <footer>IV Lens is not affiliated with, endorsed or sponsored by Niantic, Nintendo, The Pokémon Company or Game
+  Freak. Pokémon and Pokémon GO are trademarks of their respective owners.</footer>
+</main>
+</body>
+</html>

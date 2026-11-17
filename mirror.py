@@ -148,7 +148,7 @@ def main(out):
     }
     write(stage, "manifest.json", json.dumps(manifest, indent=1).encode())
     here = os.path.dirname(os.path.abspath(__file__))
-    for f in ("LICENSE-PvPoke", "index.html", "privacy.html"):
+    for f in ("LICENSE-PvPoke", "index.html", "privacy.html", "support.html"):
         if os.path.exists(os.path.join(here, f)):
             shutil.copy(os.path.join(here, f), os.path.join(stage, f))
     open(os.path.join(stage, ".nojekyll"), "w").close()

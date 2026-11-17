@@ -12,7 +12,7 @@ than one per user, and a broken or incomplete upstream file never reaches the ap
 |---|---|
 | `gamemaster.json`, `rankings/<cup>/overall/rankings-<cp>.json` | [PvPoke](https://github.com/pvpoke/pvpoke) `src/data/`, same paths, all from one commit |
 | `pve/fast_moves.json`, `pve/charged_moves.json` | [PoGoAPI](https://pogoapi.net) |
-| `privacy.html` | The IV Lens app's privacy policy (the App Store needs a public link) |
+| `privacy.html`, `support.html` | The IV Lens app's privacy policy and support page (the App Store needs public links) |
 | `manifest.json` | When it was built, the PvPoke commit, the entry count of each file, and any cup left out |
 
 ## How it's built
