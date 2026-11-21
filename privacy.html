@@ -27,11 +27,12 @@
 <body>
 <main>
   <h1>IV Lens Privacy Policy</h1>
-  <p class="date">Effective 19 November 2026</p>
+  <p class="date">Effective 21 November 2026</p>
 
   <div class="summary">
     <p><strong>IV Lens doesn't collect any personal data.</strong> There are no accounts, ads, analytics or tracking.
-    Your Pokémon collection and settings stay on your iPhone, and nothing about you is sent to us or anyone else.</p>
+    Your Pokémon collection and settings stay on your phone, and nothing about you is sent to us or anyone else.
+    This covers IV Lens for iPhone and for Android; what differs on Android is <a href="#android">below</a>.</p>
   </div>
 
   <h2>What the app reads on your iPhone</h2>
@@ -72,12 +73,36 @@
   no personal information. The app makes no other internet
   connections.</p>
 
+  <h2 id="android">IV Lens for Android</h2>
+  <p>The Android app works like the iPhone app, with these differences:</p>
+  <ul>
+    <li><strong>Reading your screen.</strong> When you tap Start scanning, Android asks whether to share your screen
+      with IV Lens; while it's shared, a notification says IV Lens is scanning, and you can stop it there at any time.
+      The app reads Pokémon GO's appraisal screen with Google's ML Kit text recognition, which runs on the phone.
+      Frames are analysed in memory and thrown away; they are never uploaded.</li>
+    <li><strong>The floating card.</strong> With your permission to display over other apps, IV Lens shows each scan
+      in a small card over the game. It draws only IV Lens's own card and reads nothing through this permission.</li>
+    <li><strong>Pictures.</strong> To find the Pokémon in a screen for its picture, the app uses ML Kit's subject
+      segmentation, which Google Play services downloads to your phone; the picture is made on the phone.</li>
+    <li><strong>ML Kit diagnostics.</strong> Google's ML Kit libraries send Google basic device and app information and
+      performance metrics (for example the phone model, the app's version and how long a step took), for diagnostics
+      and usage analytics. They don't send your screens, your Pokémon or anything that identifies you. See Google's
+      <a href="https://developers.google.com/ml-kit/android-data-disclosure">ML Kit data disclosure</a>.</li>
+    <li><strong>Storage and backups.</strong> Your collection, pictures and settings stay in the app's storage on your
+      phone. A daily backup is saved in Downloads › IV Lens Backups, where it stays if you remove the app. Android's
+      own backup to Google Drive is turned off for IV Lens.</li>
+    <li><strong>Notifications.</strong> Scan banners and event reminders (an hour before Community Days, raid hours and
+      other events, which you can turn off in Settings) are created on your phone; they don't use any push service.</li>
+    <li><strong>Downloads.</strong> The same as on iPhone: game data and rankings from the IV Lens data mirror, and
+      raid bosses, events, Giovanni's team and the current Max Battles as described above.</li>
+  </ul>
+
   <h2>What you share</h2>
   <p>Data leaves the app only when you choose to send it: for example sharing a CSV export, a backup or a Pokémon
   summary, or copying a search string. It goes wherever you send it.</p>
 
   <h2>Notifications</h2>
-  <p>Scan banners are local notifications created on your iPhone. They don't use any push service.</p>
+  <p>Scan banners are local notifications created on your phone. They don't use any push service.</p>
 
   <h2>Children</h2>
   <p>IV Lens collects no personal data from anyone, including children.</p>
