@@ -1,7 +1,8 @@
 # IV Lens data mirror
 
 A weekly, checked copy of the public game data the IV Lens app downloads, served from GitHub Pages:
-**https://geofrust.github.io/ivlens-data/**
+**https://geofrust.github.io/ivlens-data/**. Beside it, on the `bosses` branch, the raid and Max Battle bosses, checked
+every 6 hours.
 
 The app fetches from here instead of from the original sources directly, so the sources see one request a week rather
 than one per user, and a broken or incomplete upstream file never reaches the app.
@@ -14,6 +15,18 @@ than one per user, and a broken or incomplete upstream file never reaches the ap
 | `pve/fast_moves.json`, `pve/charged_moves.json` | [PoGoAPI](https://pogoapi.net) |
 | `privacy.html`, `support.html` | The IV Lens app's privacy policy and support page (the App Store needs public links) |
 | `manifest.json` | When it was built, the PvPoke commit, the entry count of each file, and any cup left out |
+
+## The bosses
+
+`bosses.json`, the only file on the [`bosses`](../../tree/bosses) branch: the raid bosses with their dates and the Max
+Battle rotation by tier, from [Pokebattler](https://www.pokebattler.com)'s public API.
+[`.github/workflows/bosses.yml`](.github/workflows/bosses.yml) runs [`bosses.py`](bosses.py) every 6 hours: one request
+to Pokebattler, whatever the number of IV Lens users. It is checked (at least 3 raid bosses on now and 10 Max Battle
+bosses, sensible dates, few unknown names); if it fails, the last copy stays.
+
+[`corrections.json`](corrections.json) is for a boss the lists get wrong: `hide` one until a date, or `add` one with
+its dates. The file says how. To turn the list off, disable the workflow and delete the branch: the app goes back to
+its other lists.
 
 ## How it's built
 
@@ -32,6 +45,8 @@ published to Pages; its `manifest.json` records what went out.
 
 - PvPoke data: MIT licence, Copyright (c) 2019 pvpoke. See [LICENSE-PvPoke](LICENSE-PvPoke).
 - PoGoAPI data: provided by pogoapi.net, whose documentation recommends keeping a copy on your own server.
+- Bosses: Pokebattler (Battler Empire, LLC), from its [public API](https://www.pokebattler.com/developers), which asks
+  for attribution and caching; republished here with Pokebattler's agreement (2026-11-26).
 - Pokémon and Pokémon GO are trademarks of their respective owners. This project is not affiliated with Niantic,
   Nintendo, The Pokémon Company or Game Freak.
 

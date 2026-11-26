@@ -1,0 +1,39 @@
+name: Raid and Max Battle bosses
+
+# Every 6 hours: bosses.json, as the only file on the "bosses" branch (one commit, replaced each time). Apart from the
+# weekly mirror on GitHub Pages, so a problem here can't touch the game data.
+on:
+  schedule:
+    - cron: "41 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write    # re-enables this workflow each run: GitHub pauses schedules after 60 days without commits
+
+concurrency:
+  group: bosses
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download and check
+        run: python3 bosses.py "$RUNNER_TEMP/bosses.json"
+      - name: Publish
+        run: |
+          mkdir "$RUNNER_TEMP/branch" && cd "$RUNNER_TEMP/branch"
+          cp "$RUNNER_TEMP/bosses.json" .
+          git init -q -b bosses
+          git -c user.name=github-actions -c user.email=41898282+github-actions[bot]@users.noreply.github.com add bosses.json
+          git -c user.name=github-actions -c user.email=41898282+github-actions[bot]@users.noreply.github.com commit -q -m "Bosses"
+          git push -q --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" bosses
+      - name: Keep the schedule active
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/bosses.yml/enable"

@@ -1,0 +1,5 @@
+{
+ "_": "By hand, for a boss the lists get wrong. hide: {kind: raid|max, name, stars (0 or left out: any), shadow, until}. add: raid {kind, name, stars (6 = Mega), shadow, start, end}; max {kind, name, tier, gigantamax, and start + end for an event}. Names as in gamemaster.json's speciesName; times are the player's local time, 2026-11-25T06:00:00.",
+ "hide": [],
+ "add": []
+}
