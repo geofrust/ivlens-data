@@ -1,0 +1,536 @@
+{
+ "format": 1,
+ "updated": "2026-11-28T19:30:40Z",
+ "credit": "Raid and Max Battle bosses from Pokebattler (pokebattler.com)",
+ "raids": [
+  {
+   "name": "Tornadus (Incarnate)",
+   "stars": 5,
+   "shadow": true,
+   "start": "2026-11-16T06:00:00",
+   "end": "2026-12-01T22:00:00"
+  },
+  {
+   "name": "Piloswine",
+   "stars": 3,
+   "shadow": true,
+   "start": "2026-11-16T06:00:00",
+   "end": "2026-12-01T20:00:00"
+  },
+  {
+   "name": "Poliwhirl",
+   "stars": 3,
+   "shadow": true,
+   "start": "2026-11-16T06:00:00",
+   "end": "2026-12-01T20:00:00"
+  },
+  {
+   "name": "Prinplup",
+   "stars": 3,
+   "shadow": true,
+   "start": "2026-11-16T06:00:00",
+   "end": "2026-12-01T20:00:00"
+  },
+  {
+   "name": "Cranidos",
+   "stars": 1,
+   "shadow": true,
+   "start": "2026-11-16T06:00:00",
+   "end": "2026-12-01T20:00:00"
+  },
+  {
+   "name": "Larvitar",
+   "stars": 1,
+   "shadow": true,
+   "start": "2026-11-16T06:00:00",
+   "end": "2026-12-01T20:00:00"
+  },
+  {
+   "name": "Makuhita",
+   "stars": 1,
+   "shadow": true,
+   "start": "2026-11-16T06:00:00",
+   "end": "2026-12-01T20:00:00"
+  },
+  {
+   "name": "Mudkip",
+   "stars": 1,
+   "shadow": true,
+   "start": "2026-11-16T06:00:00",
+   "end": "2026-12-01T20:00:00"
+  },
+  {
+   "name": "Beedrill (Mega)",
+   "stars": 6,
+   "shadow": false,
+   "start": "2026-11-24T10:00:00",
+   "end": "2026-11-30T20:00:00"
+  },
+  {
+   "name": "Houndoom (Mega)",
+   "stars": 6,
+   "shadow": false,
+   "start": "2026-11-24T10:00:00",
+   "end": "2026-11-30T20:00:00"
+  },
+  {
+   "name": "Manectric (Mega)",
+   "stars": 6,
+   "shadow": false,
+   "start": "2026-11-24T10:00:00",
+   "end": "2026-11-30T20:00:00"
+  },
+  {
+   "name": "Sableye (Mega)",
+   "stars": 6,
+   "shadow": false,
+   "start": "2026-11-24T10:00:00",
+   "end": "2026-11-30T20:00:00"
+  },
+  {
+   "name": "Espeon",
+   "stars": 3,
+   "shadow": false,
+   "start": "2026-11-24T10:00:00",
+   "end": "2026-11-30T20:00:00"
+  },
+  {
+   "name": "Umbreon",
+   "stars": 3,
+   "shadow": false,
+   "start": "2026-11-24T10:00:00",
+   "end": "2026-11-30T20:00:00"
+  },
+  {
+   "name": "Pikachu",
+   "stars": 1,
+   "shadow": false,
+   "start": "2026-11-24T10:00:00",
+   "end": "2026-11-30T20:00:00"
+  },
+  {
+   "name": "Metagross (Mega)",
+   "stars": 6,
+   "shadow": false,
+   "start": "2026-11-25T06:00:00",
+   "end": "2026-12-01T22:00:00"
+  },
+  {
+   "name": "Deoxys",
+   "stars": 5,
+   "shadow": false,
+   "start": "2026-11-25T06:00:00",
+   "end": "2026-12-01T22:00:00"
+  },
+  {
+   "name": "Deoxys (Attack)",
+   "stars": 5,
+   "shadow": false,
+   "start": "2026-11-25T06:00:00",
+   "end": "2026-12-01T22:00:00"
+  },
+  {
+   "name": "Deoxys (Defense)",
+   "stars": 5,
+   "shadow": false,
+   "start": "2026-11-25T06:00:00",
+   "end": "2026-12-01T22:00:00"
+  },
+  {
+   "name": "Deoxys (Speed)",
+   "stars": 5,
+   "shadow": false,
+   "start": "2026-11-25T06:00:00",
+   "end": "2026-12-01T22:00:00"
+  },
+  {
+   "name": "Clefable (Mega)",
+   "stars": 6,
+   "shadow": false,
+   "start": "2026-11-28T14:00:00",
+   "end": "2026-11-28T17:00:00"
+  },
+  {
+   "name": "Slowbro (Mega)",
+   "stars": 6,
+   "shadow": false,
+   "start": "2026-12-02T06:00:00",
+   "end": "2026-12-08T22:00:00"
+  },
+  {
+   "name": "Regidrago",
+   "stars": 5,
+   "shadow": false,
+   "start": "2026-12-02T06:00:00",
+   "end": "2026-12-08T22:00:00"
+  },
+  {
+   "name": "Dialga",
+   "stars": 5,
+   "shadow": true,
+   "start": "2026-12-02T06:00:00",
+   "end": "2027-01-05T22:00:00"
+  },
+  {
+   "name": "Gengar (Mega)",
+   "stars": 6,
+   "shadow": false,
+   "start": "2026-12-09T06:00:00",
+   "end": "2026-12-15T22:00:00"
+  },
+  {
+   "name": "Skarmory (Mega)",
+   "stars": 6,
+   "shadow": false,
+   "start": "2026-12-16T06:00:00",
+   "end": "2026-12-22T22:00:00"
+  },
+  {
+   "name": "Ho-Oh",
+   "stars": 5,
+   "shadow": false,
+   "start": "2026-12-16T06:00:00",
+   "end": "2026-12-22T22:00:00"
+  },
+  {
+   "name": "Glalie (Mega)",
+   "stars": 6,
+   "shadow": false,
+   "start": "2026-12-23T06:00:00",
+   "end": "2026-12-29T22:00:00"
+  },
+  {
+   "name": "Lugia",
+   "stars": 5,
+   "shadow": false,
+   "start": "2026-12-23T06:00:00",
+   "end": "2026-12-29T22:00:00"
+  },
+  {
+   "name": "Falinks (Mega)",
+   "stars": 6,
+   "shadow": false,
+   "start": "2026-12-30T06:00:00",
+   "end": "2027-01-05T22:00:00"
+  },
+  {
+   "name": "Landorus (Therian)",
+   "stars": 5,
+   "shadow": false,
+   "start": "2026-12-30T06:00:00",
+   "end": "2027-01-05T22:00:00"
+  },
+  {
+   "name": "Thundurus (Therian)",
+   "stars": 5,
+   "shadow": false,
+   "start": "2026-12-30T06:00:00",
+   "end": "2027-01-05T22:00:00"
+  },
+  {
+   "name": "Tornadus (Therian)",
+   "stars": 5,
+   "shadow": false,
+   "start": "2026-12-30T06:00:00",
+   "end": "2027-01-05T22:00:00"
+  }
+ ],
+ "max": [
+  {
+   "name": "Toxtricity",
+   "tier": 4,
+   "gigantamax": false
+  },
+  {
+   "name": "Beldum",
+   "tier": 3,
+   "gigantamax": false
+  },
+  {
+   "name": "Chansey",
+   "tier": 3,
+   "gigantamax": false
+  },
+  {
+   "name": "Cryogonal",
+   "tier": 3,
+   "gigantamax": false
+  },
+  {
+   "name": "Deino",
+   "tier": 3,
+   "gigantamax": false
+  },
+  {
+   "name": "Drampa",
+   "tier": 3,
+   "gigantamax": false
+  },
+  {
+   "name": "Electabuzz",
+   "tier": 3,
+   "gigantamax": false
+  },
+  {
+   "name": "Falinks",
+   "tier": 3,
+   "gigantamax": false
+  },
+  {
+   "name": "Hitmonchan",
+   "tier": 3,
+   "gigantamax": false
+  },
+  {
+   "name": "Hitmonlee",
+   "tier": 3,
+   "gigantamax": false
+  },
+  {
+   "name": "Hitmontop",
+   "tier": 3,
+   "gigantamax": false
+  },
+  {
+   "name": "Magmar",
+   "tier": 3,
+   "gigantamax": false
+  },
+  {
+   "name": "Passimian",
+   "tier": 3,
+   "gigantamax": false
+  },
+  {
+   "name": "Sableye",
+   "tier": 3,
+   "gigantamax": false
+  },
+  {
+   "name": "Darumaka",
+   "tier": 2,
+   "gigantamax": false
+  },
+  {
+   "name": "Eevee",
+   "tier": 2,
+   "gigantamax": false
+  },
+  {
+   "name": "Feebas",
+   "tier": 2,
+   "gigantamax": false
+  },
+  {
+   "name": "Machop",
+   "tier": 2,
+   "gigantamax": false
+  },
+  {
+   "name": "Shuckle",
+   "tier": 2,
+   "gigantamax": false
+  },
+  {
+   "name": "Wailmer",
+   "tier": 2,
+   "gigantamax": false
+  },
+  {
+   "name": "Abra",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Bounsweet",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Bulbasaur",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Caterpie",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Charmander",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Combee",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Cottonee",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Drilbur",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Espurr",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Gastly",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Grookey",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Growlithe",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Hatenna",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Hoothoot",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Inkay",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Kabuto",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Krabby",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Magikarp",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Omanyte",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Pidove",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Pikachu",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Ralts",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Rhyhorn",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Roggenrola",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Rookidee",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Scorbunny",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Sizzlipede",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Skwovet",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Sneasel",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Sobble",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Spheal",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Squirtle",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Trapinch",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Trubbish",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Woobat",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Wooloo",
+   "tier": 1,
+   "gigantamax": false
+  },
+  {
+   "name": "Inteleon",
+   "tier": 6,
+   "gigantamax": true,
+   "start": "2026-12-05T14:00:00",
+   "end": "2026-12-05T17:00:00"
+  },
+  {
+   "name": "Toxtricity",
+   "tier": 6,
+   "gigantamax": true,
+   "start": "2027-01-23T14:00:00",
+   "end": "2027-01-23T17:00:00"
+  }
+ ],
+ "hide": [],
+ "unmapped": []
+}
